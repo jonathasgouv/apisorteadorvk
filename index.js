@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const cors = require('cors');
 const fetch = require('node-fetch');
-let group_id = '111248001';
+let group_id = '';
 
 app.use(cors());
 app.use(bodyParser.json());
