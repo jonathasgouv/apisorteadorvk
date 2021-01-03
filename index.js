@@ -15,6 +15,10 @@ app.get('/getMembers', async (req, res) => {
   try {
     console.log(req.query)
     tid = req.query.tid
+    
+    if (!tid) {
+      return res.status(400).json({error: 'No topic id given'})
+    }
 
     members = []
 
