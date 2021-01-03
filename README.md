@@ -28,7 +28,7 @@ Now your server is ready to run, but first you need to put your group id on the 
 ```
 let group_id = 'GROUP ID HERE';
 ```
-Now you just need to set you VK acess key on the .env file and that's it, you're good to go.
+Now you just need to set you VK acess key on the .env file as KEY and that's it, you're good to go.
 ```
 $ npm start
 ```
