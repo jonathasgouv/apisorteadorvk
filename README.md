@@ -6,6 +6,9 @@ Api that provides the data for the front-end of the [VK User Drawer](https://git
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Installing](#installing)
+* [Built With](#built-with)
+* [Author](#author)
+* [License](#license)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Note that this is only the back-end of the project, in order to see it working properly you'll need to install the [front-end](https://github.com/jonathasgouv/vkuserdrawer) afterwards, or make your own version of it.
@@ -30,3 +33,14 @@ Now you just need to set you VK acess key on the .env file and that's it, you're
 $ npm start
 ```
 Your server is now running on [port 3000](http://localhost:3000/).
+
+## Built With
+* [Javascript](https://www.javascript.com/)
+* [Node.js](https://nodejs.org/)
+* [Express.js](https://expressjs.com/pt-br/)
+
+## Author
+* [Jônathas Gouveia](https://github.com/jonathasgouv/)
+
+## License
+This project is licensed under the  GPL-3.0 License - see the [LICENSE](https://github.com/jonathasgouv/vkuserdrawerAPI/blob/main/LICENSE) file for details
