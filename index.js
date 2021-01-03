@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const cors = require('cors');
 const fetch = require('node-fetch');
+let group_id = '111248001';
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -17,7 +18,7 @@ app.get('/getMembers', async (req, res) => {
 
     members = []
 
-    url = `https://api.vk.com/method/board.getComments?group_id=111248001&count=100&topic_id=${tid}&offset=0&sort=asc&access_token=${process.env.KEY}&v=5.52`
+    url = `https://api.vk.com/method/board.getComments?group_id=${group_id}&count=100&topic_id=${tid}&offset=0&sort=asc&access_token=${process.env.KEY}&v=5.52`
     
     data = await fetch(url)
     data =  await data.json()
